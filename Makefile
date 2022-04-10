@@ -1,4 +1,4 @@
-EXE = .exe
+EXE = #.exe
 CFLAGS = -O2
 HFLAGS = -O
 
