@@ -18,8 +18,6 @@ You can read the GNU General Public License at this URL:
 -}
 
 
-module Main () where
-
 
 import Scads2_types
 import Scads2_read
