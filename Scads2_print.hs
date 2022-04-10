@@ -24,9 +24,9 @@ module Scads2_print (ppAll) where
 import Scads2_types
 import Scads2_vmmisc
 
-import Char (isAlphaNum)
+import Data.Char (isAlphaNum)
 import Data.Bits (testBit)
-import Maybe (fromMaybe)
+import Data.Maybe (fromMaybe)
 
 
 ppCode :: (?info :: Info) => [Instr] -> [String]

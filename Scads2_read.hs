@@ -30,15 +30,15 @@ module Scads2_read (
 import Scads2_types
 
 
-import Char (chr)
+import Data.Char (chr)
 import Control.Monad (when)
 import Control.Monad.State (get,put,evalState)
-import Foreign (unsafePerformIO)
+import System.IO.Unsafe (unsafePerformIO)
 import Foreign.C.Types (CInt)
 import Foreign.C.String (CString,withCString)
 import Foreign.Ptr (Ptr,nullPtr,plusPtr)
 import Foreign.Storable (sizeOf,peek,peekElemOff)
-import System (exitFailure)
+import System.Exit (exitFailure)
 
 
 

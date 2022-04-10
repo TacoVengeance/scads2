@@ -24,7 +24,7 @@ module Scads2_decompile (decompile) where
 import Scads2_types
 import Scads2_vmmisc
 
-import List (sort)
+import Data.List (sort)
 
 
 decompile = doToDeath decompile3 . doToDeath decompile'

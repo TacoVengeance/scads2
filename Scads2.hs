@@ -28,12 +28,13 @@ import Scads2_decompile
 import Scads2_vmmisc
 import Scads2_print
 
-import Char (chr,ord,isAlphaNum)
-import IO (hPutStrLn,stderr)
-import List (sort)
-import Maybe (isJust,fromJust,fromMaybe)
+import Data.Char (chr,ord,isAlphaNum)
+import System.IO (hPutStrLn,stderr)
+import Data.List (sort)
+import Data.Maybe (isJust,fromJust,fromMaybe)
 import Numeric (showHex)
-import System (getArgs,exitFailure)
+import System.Exit (exitFailure)
+import System.Environment (getArgs)
 
 import Data.Bits ((.&.),shiftR,testBit)
 import Data.Word (Word8)
